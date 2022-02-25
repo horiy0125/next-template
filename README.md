@@ -1,5 +1,7 @@
 # next-template
 
+Next.js (TypeScript) template repository
+
 ## installed packages
 
 - TypeScript

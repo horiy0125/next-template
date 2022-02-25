@@ -4,6 +4,7 @@
 module.exports = {
   env: {
     API_BASE_URL: process.env.API_BASE_URL,
+    APP_DEPLOY_DOMAIN: process.env.APP_DEPLOY_DOMAIN,
   },
   images: {
     domains: [

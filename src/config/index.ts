@@ -1,8 +1,6 @@
 import { envVariables } from './envVariables';
 
-export const domain = '{YOUR_DOMAIN}';
-
-export const appUrl = `https://${domain}`;
+export const appUrl = `https://${envVariables.APP_DEPLOY_DOMAIN}`;
 
 export const getPageUrl = (pageRoute: string) => {
   return `${appUrl}${pageRoute}`;
